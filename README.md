@@ -1,10 +1,11 @@
 Steps to reproduce the issue:
 
 ### Installation
-1. Pull this repository
-2. Run `composer install`
-3. Run `php artisan migrate --seed`
-4. Run `php artisan serve`
+1. Run `git clone git@github.com:jeffreyvanhees/filament-model-states-bug.git`
+2. Run `cd filament-model-states-bug`
+3. Run `composer install`
+4. Run `php artisan migrate --seed`
+5. Run `php artisan serve`
 
 Go to the following URL:  http://127.0.0.1:8000/admin
 
